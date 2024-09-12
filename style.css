@@ -361,7 +361,8 @@ p {
 
 /* Our Vision */
 .our-vision {
-  padding-top: 6%;
+  padding: 6% 0 2%;
+
   width: 90%;
   display: block;
   margin: auto;
@@ -421,6 +422,14 @@ p {
   font-family: var(--figtree);
   font-weight: var(--medium);
   margin: 5% 0 10%;
+}
+
+.custom-nav-blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1%;
+  margin-top: 3%;
 }
 
 /* footer */
