@@ -12,19 +12,27 @@
   <body>
     <header>
       <div class="logo-wrapper">
-        <img src="./assets/logo.png" alt="" />
+          <img src="./assets/logo.png" alt="Logo">
       </div>
-
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+      </label>
+      <div class="nav-background"></div>
       <div class="nav-links">
-        <a href="#">About</a>
-        <a href="#">Solutions</a>
-        <a href="#">Projects</a>
-        <a href="#">Media</a>
-        <a href="#">Contact</a>
+          <a href="#">About</a>
+          <a href="#">Solutions</a>
+          <a href="#">Projects</a>
+          <a href="#">Media</a>
+          <a href="#">Contact</a>
+          <div class="locale-mobile">
+              <a class="orange" href="#">EN</a> | <a class="default" href="#">中文</a>
+          </div>
       </div>
-
-      <div class="locale"><a class="orange" href="#">EN</a> | <a class="default" href="#">中文</a></div>
-    </header>
+      <div class="locale">
+          <a class="orange" href="#">EN</a> | <a class="default" href="#">中文</a>
+      </div>
+  </header>
 
     <!-- Contents SECTION 1, SECTION 2 and SECTION 3-->
     <content>
@@ -262,8 +270,7 @@
           <div class="vision-content">
             <div class="box-vision">
               <p class="vision-title">
-                Our Vision and commitments<br />
-                For the future
+                Our Vision and commitments for the future
               </p>
             </div>
             <div class="box-vision-2">
@@ -277,7 +284,7 @@
           <div class="vision-content">
             <div class="box-vision">
               <p class="vision-section">Our Vision</p>
-              <p class="vision-text">
+              <p class="vision-text-2">
                 Our mission is to lead the transition towards a decentralized energy future by equipping organizations with cutting-edge smart tools and state-of-the-art clean-energy infrastructure. We envision a world where every business
                 and building plays an active role in creating a sustainable, multidirectional energy grid. By driving progress and promoting environmental stewardship, we aim to accelerate the widespread adoption of transformative energy
                 solutions. This future is one where innovation and responsibility go hand in hand, allowing us to collectively build a resilient and eco-friendly energy landscape that meets the needs of today while safeguarding the
@@ -296,7 +303,7 @@
             <div class="box-commitment">
               <img src="./assets/pic-1.png" alt="" />
               <p class="title-content-comitment">Empower organizations to act now for future success.</p>
-              <p>
+              <p class="commitment-desc">
                 Today, the energy landscape is undergoing a profound transformation as it becomes increasingly decentralized. The new energy grid is not a single, linear network but a complex, multidirectional system that begins with
                 individual businesses and buildings.
               </p>
@@ -308,7 +315,7 @@
                 Use every innovation<br />
                 to the fullest.
               </p>
-              <p>
+              <p class="commitment-desc">
                 Whether it’s investing in innovative companies or creating a platform to join technologies like AI, virtual twin, augmented reality and automation, Aden Energies promises to explore and put every available technology to use
                 so that we can deliver the most powerful energy transformations.
               </p>
@@ -317,7 +324,7 @@
             <div class="box-commitment">
               <img src="./assets/pic-3.png" alt="" />
               <p class="title-content-comitment">Make every city smart and sustainable.</p>
-              <p>If you want to make an impact on energy, go to the center of consumption. Cities and buildings now account for 40% of global energy use. Air conditioning usage is expected to triple by 2050.</p>
+              <p class="commitment-desc">If you want to make an impact on energy, go to the center of consumption. Cities and buildings now account for 40% of global energy use. Air conditioning usage is expected to triple by 2050.</p>
             </div>
           </div>
 
@@ -367,49 +374,79 @@
               <img src="./assets/EnvelopeFill.png" alt="" />
             </div>
           </div>
-
-          <p>Terms & Privacy Policy</p>
         </div>
         <div class="footer-b">
           <div class="footer-menu-wrapper">
             <div class="footer-navigation-wrapper">
               <div class="footer-label">NAVIGATION</div>
-              <a href="#">About</a>
-              <a href="#">Solutions</a>
-              <a href="#">Projects</a>
-              <a href="#">Media</a>
+              <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Solutions</a>
+                <a href="#">Projects</a>
+                <a href="#">Media</a>
+              </div>
             </div>
 
             <div class="footer-address-warpper">
               <div class="footer-label">ADDRESS</div>
-              <a href="#">China</a>
-              <a href="#">Southeast Asia</a>
+              <div class="footer-links">
+                <a href="#">China</a>
+                <a href="#">Southeast Asia</a>
+              </div>
+              
             </div>
 
             <div class="footer-browse-wrapper">
               <div class="footer-label">BROWSE</div>
-              <a href="#">News</a>
-              <a href="#">Insights</a>
-              <a href="#">Videos</a>
+              <div class="footer-links">
+                <a href="#">News</a>
+                <a href="#">Insights</a>
+                <a href="#">Videos</a>
+              </div>
+              
             </div>
 
             <div class="footer-group-wrapper">
               <div class="footer-label">GROUP</div>
-              <a href="#">Adengroup</a>
-              <a href="#">Akila</a>
-              <a href="#">Adenservices</a>
-              <a href="#">NXpark</a>
+              <div class="footer-links">
+                <a href="#">Adengroup</a>
+                <a href="#">Akila</a>
+                <a href="#">Adenservices</a>
+                <a href="#">NXpark</a>
+              </div>
+              
             </div>
 
             <div class="footer-explore-wrapper">
               <div class="footer-label">EXPLORE</div>
-              <a href="#">Renewable energy</a>
-              <a href="#">Energy Efficiency</a>
-              <a href="#">Virtual Power Plant</a>
+              <div class="footer-links">
+                <a href="#">Renewable energy</a>
+                <a href="#">Energy Efficiency</a>
+                <a href="#">Virtual Power Plant</a>
+              </div>
+              
+            </div>
+
+            <div class="footer-connect-wrapper">
+              <div class="footer-label">Connect with us :</div>
+              <div class="footer-links">
+                <a href="#">WeChat</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Email</a>
+              </div>
+              
             </div>
           </div>
-          <p>Copyright © Aden energies 2024</p>
+          
         </div>
+        
+      </div>
+
+      <div class="terms-wrap">
+        <a href=""><p>Terms & Privacy Policy</p></a>
+        <a  href=""><p class="copy-right">Copyright © Aden energies 2024</p></a>
       </div>
     </footer>
   </body>
