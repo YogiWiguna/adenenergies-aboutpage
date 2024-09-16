@@ -460,6 +460,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 10%;
 }
 
 .terms-wrap{
@@ -558,6 +559,7 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: -0.5%;
 }
 
 .footer-menu-wrapper a {
@@ -589,7 +591,8 @@ footer p {
 }
 
 .footer-address-warpper{
-  width: 14.2%;
+  width: 15.2%;
+  margin-left: -1%;
 }
 
 .footer-browse-wrapper{
@@ -597,7 +600,7 @@ footer p {
 }
 
 .footer-group-wrapper{
-  width: 13.8;
+  width: 13.8%;
 }
 
 .social-media-icons-footer {
